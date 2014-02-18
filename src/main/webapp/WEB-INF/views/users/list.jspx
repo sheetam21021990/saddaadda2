@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_saddaadda_domain_User" items="${users}" z="KSaec0DYFWJ4/pQzrJzcmq5nNFs=">
+        <table:table data="${users}" id="l_in_saddaadda_domain_User" path="/users" z="o2AcvrKU6zOyWZNTjFzgmxSBR6A=">
+            <table:column id="c_in_saddaadda_domain_User_account" property="account" z="f/VWBpE/h8vVdfvXQbQMrd8skHM="/>
+            <table:column id="c_in_saddaadda_domain_User_gender" property="gender" z="J2WI9XxpwGh77CaQR48z/9IN4p8="/>
+            <table:column id="c_in_saddaadda_domain_User_userName" property="userName" z="Udm5zPo+QII6zjsPEJMq0VnC7X4="/>
+            <table:column id="c_in_saddaadda_domain_User_password" property="password" z="3czBOLJjc5m5NJsALTS3KjQphyw="/>
+            <table:column id="c_in_saddaadda_domain_User_firstName" property="firstName" z="BAMbZgnU7oRfymGdWFD0uUJK3IE="/>
+            <table:column id="c_in_saddaadda_domain_User_middleName" property="middleName" z="pYyXqTNAuZgfDEVQzpjjXfUlPqg="/>
+        </table:table>
+    </page:list>
+</div>

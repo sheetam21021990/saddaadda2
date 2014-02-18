@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_saddaadda_domain_User" object="${user}" path="/users" z="Btd18t9bcj2XJn5p2pOafoPjKH0=">
+        <field:display field="account" id="s_in_saddaadda_domain_User_account" object="${user}" z="4v7juTWjFahgZSReW4fer+VktJc="/>
+        <field:display field="gender" id="s_in_saddaadda_domain_User_gender" object="${user}" z="6m6M97Mfa81CYS14uY8SETJVY6M="/>
+        <field:display field="userName" id="s_in_saddaadda_domain_User_userName" object="${user}" z="a+T2tfr0fg6vTzh4rrfwSlOVjUc="/>
+        <field:display field="password" id="s_in_saddaadda_domain_User_password" object="${user}" z="zOejQKomvRS5c6QMzOZMyo7a8lk="/>
+        <field:display field="firstName" id="s_in_saddaadda_domain_User_firstName" object="${user}" z="lzXRT2gVEGb5zRpIS1fqkcENde4="/>
+        <field:display field="middleName" id="s_in_saddaadda_domain_User_middleName" object="${user}" z="4AUuQCaPXY05m7IAwbgz53//3bM="/>
+        <field:display field="lastName" id="s_in_saddaadda_domain_User_lastName" object="${user}" z="k9n5gOmicHMjan1zcwtlqJjM9+M="/>
+        <field:display field="email" id="s_in_saddaadda_domain_User_email" object="${user}" z="BkBsMNnkog97ZLTXkwZmoJdm0AI="/>
+        <field:display field="cellNumber" id="s_in_saddaadda_domain_User_cellNumber" object="${user}" z="VcsndYGYjTNBkiD/8AHe6PgG5Eg="/>
+        <field:display field="address" id="s_in_saddaadda_domain_User_address" object="${user}" z="9N9F1iko0PDF4B5fQwdGo+ZnJng="/>
+        <field:display date="true" dateTimePattern="${user_dateofbirth_date_format}" field="dateOfBirth" id="s_in_saddaadda_domain_User_dateOfBirth" object="${user}" z="3ReSoqOcfSjH6dz2FZRh300GEpg="/>
+    </page:show>
+</div>

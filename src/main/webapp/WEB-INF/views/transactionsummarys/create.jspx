@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_in_saddaadda_domain_TransactionSummary" modelAttribute="transactionSummary" path="/transactionsummarys" render="${empty dependencies}" z="xdVJMSj1uYmf7fDj2gHktWAGWJo=">
+        <field:input disableFormBinding="true" field="id.id" id="c_in_saddaadda_domain_TransactionSummary_id_id" required="true" validationMessageCode="field_invalid_integer" z="Sfj5YblKJMvhMe9Nl1sTCVeopGY="/>
+        <field:input disableFormBinding="true" field="id.user" id="c_in_saddaadda_domain_TransactionSummary_id_user" required="true" validationMessageCode="field_invalid_integer" z="l1Go/NyAX48+wllw9gUrJ9LyB9s="/>
+        <field:datetime dateTimePattern="${transactionSummary_transactiondate_date_format}" field="transactionDate" id="c_in_saddaadda_domain_TransactionSummary_transactionDate" required="true" z="9yJVFi3czEjFflB20OwRWQ2GWWw="/>
+        <field:input field="name" id="c_in_saddaadda_domain_TransactionSummary_name" required="true" z="fpfA7bX7vlY2e/cIcEAgjQY1czE="/>
+        <field:input field="totalPrice" id="c_in_saddaadda_domain_TransactionSummary_totalPrice" z="Gq78UWGbo3miN60F1jziQ9QGVkM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_in_saddaadda_domain_TransactionSummary" render="${not empty dependencies}" z="VkBxppSk1FJ277RT9mxZjnC3KbI="/>
+</div>

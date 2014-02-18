@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_saddaadda_domain_TransactionSummary" object="${transactionsummary}" path="/transactionsummarys" z="L3colRPShi3hqVmrjKGVM+I8Ask=">
+        <field:display date="true" dateTimePattern="${transactionSummary_transactiondate_date_format}" field="transactionDate" id="s_in_saddaadda_domain_TransactionSummary_transactionDate" object="${transactionsummary}" z="MINHpyR590tyVaIr7OVzA0Ocpzc="/>
+        <field:display field="name" id="s_in_saddaadda_domain_TransactionSummary_name" object="${transactionsummary}" z="xBuQChLgVK3mI4NKS0budMi3QKw="/>
+        <field:display field="totalPrice" id="s_in_saddaadda_domain_TransactionSummary_totalPrice" object="${transactionsummary}" z="JrFTITQofXf6yFdyHocNJ+ATF1g="/>
+    </page:show>
+</div>

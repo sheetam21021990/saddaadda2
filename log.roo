@@ -1,0 +1,15 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2014-02-18 23:42:18
+project --topLevelPackage in.saddaadda
+addon search jdbc
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.jtopen
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 02
+jpa setup --database MYSQL --provider HIBERNATE --userName root --password root --databaseName saddaadda --hostName localhost
+database reverse engineer --schema no-schema-required --package in.saddaadda.domain
+perform eclipse
+web mvc setup 
+web mvc all --package ~.web
+perform eclipse
+perform clean
+perform package

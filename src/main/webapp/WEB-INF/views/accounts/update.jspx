@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_saddaadda_domain_Account" modelAttribute="account" path="/accounts" versionField="none" z="mfaxFfuAbGp59obW2StNtyuGnOY=">
+        <field:simple field="users" id="c_in_saddaadda_domain_Account_users" messageCode="entity_reference_not_managed" messageCodeAttribute="User" z="45n+9eqsAG53p+YRRMV3ZSOQ/TI="/>
+        <field:input field="accountName" id="c_in_saddaadda_domain_Account_accountName" required="true" z="MNPujqbeWhFFOickXr1utzK7zbw="/>
+        <field:input field="displayName" id="c_in_saddaadda_domain_Account_displayName" z="Z0jVCNr5C2XeunJEtz4L+ZuBloE="/>
+    </form:update>
+</div>

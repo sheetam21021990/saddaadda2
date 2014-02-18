@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_saddaadda_domain_ItemDetails" object="${itemdetails}" path="/itemdetailses" z="xEiRdrR3iabM/8LDrA+2X+qU9cE=">
+        <field:display date="true" dateTimePattern="${itemDetails_trasactiondate_date_format}" field="trasactionDate" id="s_in_saddaadda_domain_ItemDetails_trasactionDate" object="${itemdetails}" z="Mz2YpJcgTl3UJLIDPWKlOzeoPd4="/>
+        <field:display field="name" id="s_in_saddaadda_domain_ItemDetails_name" object="${itemdetails}" z="q9+CYA4aWxVfqd0BV8SD+awBxN0="/>
+        <field:display field="price" id="s_in_saddaadda_domain_ItemDetails_price" object="${itemdetails}" z="rRKG6n16bt5u5wpLkhMs2k0p/5g="/>
+    </page:show>
+</div>
